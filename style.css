@@ -7,7 +7,7 @@ body{
 }
 
 .header {
-    display: flex;
+    display: inline-flex;
     background-color: #1F2937;
     padding: 20px;
 }
@@ -16,7 +16,7 @@ body{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
-    margin-left: 80px;
+    align-self: center;
 }
 
 a {
@@ -32,6 +32,7 @@ li {
     flex-direction: row;
     gap: 15px;
     font-size: 18px;
+    align-items: center;
     
 }
 
@@ -42,8 +43,7 @@ li {
 .hero {
     display: flex;
     background: #1F2937;
-    justify-content: space-around;
-    padding: 40px;
+    padding: 20px;
 }
 
 .hero-img {
@@ -52,4 +52,18 @@ li {
 
 .empty-div-flex {
     flex: 1 1 auto;
+}
+
+
+.empty-div-flex-2{
+    flex: 1 2 auto;
+    max-width: 80px;
+    min-width: 5px;
+}
+
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8
 }
