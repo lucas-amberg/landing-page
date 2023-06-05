@@ -130,14 +130,32 @@ li {
 .caption {
     max-width: 140px;
     text-align: center;
+    padding-top: 5px;
 }
 
 .quote-container {
     background-color: #E5E7EB;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    max-width: 650px;
+    align-self: center;
+    text-align: normal;
+    font-weight: 100;
+}
+
+.quote-author {
+    text-align: right;
+    max-width: 700px;
+    float: right;
+    font-size: medium;
+    font-weight: 700;
+    font-style: normal;
+    padding: 5px;
 }
