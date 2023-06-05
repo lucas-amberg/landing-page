@@ -169,6 +169,7 @@ li {
     background-color: #3882F6;
     padding: 30px 60px;
     border-radius: 10px;
+    gap: 10px;
 }
 
 .call-header{
@@ -183,4 +184,16 @@ li {
 
 .call-background button {
     border: solid #F9FAF8 2px;
+}
+
+.footer {
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    color:#F9FAF8;
 }
