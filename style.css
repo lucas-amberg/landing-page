@@ -131,3 +131,13 @@ li {
     max-width: 140px;
     text-align: center;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
