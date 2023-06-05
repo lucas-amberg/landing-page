@@ -159,3 +159,28 @@ li {
     font-style: normal;
     padding: 5px;
 }
+
+.call-container {
+    padding: 70px;
+}
+
+.call-background {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px 60px;
+    border-radius: 10px;
+}
+
+.call-header{
+    font-size: 20px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.call-description {
+    color: #E5E7EB;
+}
+
+.call-background button {
+    border: solid #F9FAF8 2px;
+}
